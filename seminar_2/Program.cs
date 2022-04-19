@@ -1,12 +1,8 @@
 ﻿
-void ShowNumber()
+void ShowNumber(int num)
 {
-    int num = new Random().Next(10,99); 
     int firstNum = num/10;
     int secondNum = num%10;
-
-    Console.Write(num +" -> ");
-
     if(firstNum > secondNum)
     {
         Console.WriteLine(firstNum);
@@ -16,7 +12,9 @@ void ShowNumber()
         Console.WriteLine(secondNum);
     }
 }
-ShowNumber();
+int num = new Random().Next(10,99); 
+Console.Write(num +" -> ");
+ShowNumber(num);
 /*
 // задача 1
 

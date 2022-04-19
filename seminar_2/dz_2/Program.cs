@@ -31,7 +31,7 @@ Console.WriteLine("Введите исходное число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 threeNum(num);
 
-*/
+
 // задача 15
 
 void weekend(int day)
@@ -55,3 +55,4 @@ void weekend(int day)
 Console.WriteLine("введите номер дня недели: ");
 int day = Convert.ToInt32(Console.ReadLine());
 weekend(day);
+*/
